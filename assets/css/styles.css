@@ -1,2 +1,89 @@
 
 /* css */
+
+.head {
+  background-color: #D2B48C;
+  height: 500px;
+  width: 500px;
+  border-radius: 40%;
+}
+
+#leftEye {
+  background-color: blue;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 200px;
+  left: 100px;
+
+}
+
+#leftPupil {
+  background-color: white;
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+}
+
+#rightEye {
+  background-color: blue;
+  height: 50px;
+  width: 50px;
+  position: absolute;
+  top: 200px;
+  left: 350px;
+
+}
+
+#rightPupil {
+  background-color: white;
+  height: 20px;
+  width: 20px;
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+}
+
+#nose {
+  width: 0px;
+  height:  0px;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-bottom: 70px solid #cb9e51;
+  border-radius: 10%;
+  position: absolute;
+  left: 225px;
+  top: 280px;
+}
+
+#mouthLeft {
+  width: 0;
+  height: 0;
+  border-top: 40px solid transparent;
+  border-bottom: 0px solid transparent;
+  border-left: 110px solid #CD5C5C;
+  position: absolute;
+  left: 155px;
+  top: 400px;
+}
+
+#mouthRight {
+  width: 0;
+  height: 0;
+  border-top: 40px solid transparent;
+  border-bottom: 0px solid transparent;
+  border-right: 100px solid #CD5C5C;
+  position: absolute;
+  left: 245px;
+  top: 400px;
+}
+
+.hair {
+  width: 30px;
+  height: 70px;
+  background-color: #8a6629;
+  position: absolute;
+  z-index: -1;
+}
